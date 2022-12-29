@@ -1,7 +1,6 @@
 mod utils;
 mod sudoku;
 
-use serde_json::{Result, Value};
 use sudoku::{Board, solve};
 use wasm_bindgen::prelude::*;
 
